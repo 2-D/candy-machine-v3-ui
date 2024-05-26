@@ -9,10 +9,10 @@ export const rpcHost =
 
 export const candyMachineId = new PublicKey(
   process.env.NEXT_PUBLIC_CANDY_MACHINE_ID ||
-    "3zwFR3spiwbSSMtvVKG2bRT6ttqFoC3MHCafGP8ZrdLz"
+    "39cK8AQFr1nLYKoCtYQPnmAjGCRkL5XwVJFebaG6ciEv"
 );
 export const defaultGuardGroup =
-  process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || undefined; // undefined means default
+  process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || "D2pjiTnfsZHj3eyXjuXwpzMhH4PYxPH1LyA5fv6ip9vz"; // undefined means default
 
 // "qasJ6jhgtngKk2QnEPdDjuFH8NMoM58W8TxPBXAChPY"
 // "3zwFR3spiwbSSMtvVKG2bRT6ttqFoC3MHCafGP8ZrdLz"
